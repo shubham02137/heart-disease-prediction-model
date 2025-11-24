@@ -29,3 +29,58 @@ heart-disease-prediction/
 ├── requirements.txt           # Python dependencies
 └── notebooks/
     └── heart_disease_prediction.ipynb  # Jupyter Notebook (optional)
+
+
+
+
+
+🛠️ Technologies Used
+
+Language: Python
+
+Libraries:
+
+pandas, numpy
+
+scikit-learn
+
+matplotlib, seaborn (for plots in the notebook)
+
+joblib (for saving the model)
+
+
+
+
+
+
+🧠 Machine Learning
+
+Typical ML pipeline:
+
+Load dataset (heart.csv)
+
+Basic EDA (Exploratory Data Analysis)
+
+Split into train and test sets
+
+Train ML models such as:
+
+Logistic Regression
+
+K-Nearest Neighbors (KNN)
+
+Decision Tree
+
+Random Forest
+
+Support Vector Machine (SVM)
+
+Evaluate with:
+
+Accuracy
+
+Confusion Matrix
+
+Precision, Recall, F1-score
+
+Choose best model and save it as model.joblib
